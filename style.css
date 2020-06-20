@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+* body {
+    min-height: 100vh;
+}
+* img {
+    display: block;
+    heigt:auto;
+    width:80%;
+    margin: auto;
+}
+
+body {
+    background: linear-gradient(to right, #ACB6E5, #74ebd5);
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+* a {
+    color: white;
+    text-decoration: none;
+}
+
+/** Utils */
+
+/* typography */
+.font--roboto {
+    font-family: 'Roboto Slab', serif;
+}
+
+/*  color */
+.text--green {
+    color: #11998E;
+}
+
+.text--red {
+    color: red;
+}
+
+.text--white {
+    color: whitesmoke;
+}
+
+.text--black {
+    color:black
+}
+
+.text--align{
+    text-align: center;
+}
+.text--left{
+    text-align: left;
+}
+
+/* transform  */
+.text--uppercase {
+    text-transform: uppercase;
+}
+
+/*  font size */
+.fz--lg {
+    font-size: 20px;
+}
+.fz--md {
+    font-size: 18px;
+}
+.fz--sm {
+    font-size: 12px;
+}
+.fz--xsm {
+    font-size: 10px;
+}
+
+/* bg color */
+.bg--white {
+    background-color: white;
+}
+.bg--green {
+    background-color:#a7fe77;
+}
+.bg--whitesmoke{
+    background-color: #e8ecef;
+}
+.bg--gray {
+    background-color: gray;
+}
+
+.bg__btn--green {
+    background-color: green;
+}
+.bg__btn--gray {
+    background-color: gray;
+}
+.bg__btn--blue{
+    background-color: steelblue;
+}
+.border__bottom--green {
+    border-bottom: 7px solid #1abc9c;
+}
+
+.mr--30{
+    margin-right: 30px;;
+}
+.mt--20 {
+    margin-top: 20px;
+}
+.mx--10 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.m--10{
+    margin:10px;
+}
+.m--bottom{
+    margin-bottom: 2px;
+}
+.mb--50{
+    margin-bottom: 50px;
+}
+.ml--100{
+    margin-left: 100px;
+}
+.px-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.px-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.p-20 {
+    padding: 20px;
+}
+.bttn--p{
+    padding:.5em 1.25em;
+}
+/* grid */
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+.list--style{
+    list-style: none;
+}
+.d--flex{
+    display: flex;
+}
+/* button */
+.button--block{
+    display: block;
+}
+/* header */
+
+
+.header .avatar .avatar--img {
+    border-radius: 50%;
+}
+button{
+    
+    border: 1px solid;
+    box-shadow: 3px 5px #888888;
+}
+
+
+
+/* footer */
+
+.debug--fot{
+    border:1px solid red;
+}
+
+.progress{
+    margin:2px 5px 10px ;
+    height: 24px;
+    width:auto; 
+    border-radius: 5%;       
+}    
+
+.box{
+    background-color: #27a844;
+    height: 24px; 
+} 
+
+
+
+.social{
+    float: left;
+    margin-left: 18px;
+}
+
+
